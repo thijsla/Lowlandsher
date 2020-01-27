@@ -1,0 +1,319 @@
+/*Bronnen onderaan dit document*/
+/*----------Algemeen-----------*/
+
+body {
+    font-family: 'Lilita One', cursive;
+    background-image: url(../images/backgroundprogramma.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-color: #0026cc;
+    margin: 0;
+}
+
+/*----------Menu-----------*/
+
+header nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    background-color: #0026cc;
+    margin: 0;
+    box-shadow: inset 0 0 10px #000000;
+    padding: 0 18%;
+}
+
+nav li {
+    font-size: 15px;
+    padding-right: 22px;
+    padding-top: 26px;
+    padding-bottom: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: #61B664;
+    font-size: 1.1em;
+    transition: 0.2s;
+}
+
+nav img:hover{
+    height: 30px;
+    transition: 0.2s;
+}
+
+nav img {
+    height: 25px;
+    margin-top: -4px;
+}
+
+/*----------Tussenstuk-----------*/
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+div a,
+h2 {
+    color: white;
+    padding-left: 15%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: #1C4496;
+}
+
+.minimenu {
+    background-color: #4CD066;
+    padding: 15px 0;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+/*----------Artist block-----------*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    background-color: #4CD066;
+    height: 25%;
+    width: 35%;
+    min-height: 300px;
+    min-width: 450px;
+    margin: 3% 1% 0 1%;
+    box-shadow: inset 0px 1px 10px 10px #000000;
+}
+
+.heart {
+    height: 2em;
+    margin: 10% 0 0 10%;
+}
+
+/*
+.hart{
+    background-image: url(../images/heartblank.png);
+}
+
+div.hart{
+    background-image: url(../images/heartfull.png);
+}
+
+Ik kom hier niet meer uit, ik snap niet hoe dit werkt. Ik heb het geprobeerd.
+*/
+
+p {
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 4% 0 1% 10%;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 1% 10%;
+}
+
+.artistphoto {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+/*----------Eerste block detailpagina-----------*/
+
+.info {
+    margin: -6% 20% 5% 10%;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: black;
+}
+
+/*----------Tweede block detailpagina-----------*/
+
+iframe {
+    width: 80%;
+    height: 100%;
+    margin: 10% 0 0% 10%;
+    border: 0;
+}
+
+article li {
+    display: block;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    list-style-type: none;
+}
+
+article li a {
+    text-decoration: none;
+    color: white;
+}
+
+.last {
+    margin-bottom: 5%;
+}
+
+article li a:visited {
+    color: white;
+}
+
+article li a:hover {
+    color: #0026cc;
+}
+
+/*----------Tussenstuk-----------*/
+
+.banner2 {
+    width: 100%;
+    height: 80%;
+    display: block;
+    padding-top: 5%;
+    background-image: url(../images/tameimpala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.gif {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------Footer overall-----------*/
+
+footer {
+    background-color: #0026cc;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+/*----------Footer socials-----------*/
+
+h2 {
+    padding-top: 2em;
+}
+
+footer img {
+    width: 3em;
+    padding-right: 1em;
+}
+
+.first {
+    padding-left: 13%;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+/*----------Footer nieuwsbrief-----------*/
+
+fieldset {
+    width: 40%;
+    margin-left: 15%;
+    border: #0026cc;
+}
+
+label {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    width: 60%;
+    display: block;
+    height: 3em;
+    display: inline-block;
+    font-weight: bold;
+}
+
+button {
+    height: 3.5em;
+    width: 5em;
+    display: inline-block;
+    background-color: #0026cc;
+    color: white;
+    font-weight: bold;
+    border: 4px solid #4CD066;
+}
+
+button:hover {
+    background-color: #4CD066;
+    border: 4px solid #0026cc;
+}
+
+/*----------Footer links onder nieuwsbrief-----------*/
+
+footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    padding-right: 3em;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul {
+    margin-left: 13%;
+    display: flex;
+    padding-bottom: 3em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*----------Footer sponsoren-----------*/
+
+footer div {
+    display: flex;
+    padding: 0 30px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+footer div img {
+    width: 100px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+/*Bronnen
+Box-sizing: https://www.w3schools.com/css/css3_box-sizing.asp
+Background image volledige breedte: https://stackoverflow.com/questions/22887548/css-stretching-background-image-to-100-width-and-height-of-screen (niet gelukt)
+GIF maken vanuit video: https://graphicdesign.stackexchange.com/questions/46656/how-to-convert-a-video-file-into-an-animated-gif-in-photoshop
+Afbeeldingen: Lowlands website
+*/
+
+/*
+Geprobeerd materiaal
+Img vervangen met javascript: https://www.youtube.com/watch?v=AiiXLmqhndU ; https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
+*/
